@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backdefault">
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@color/lightblue">
+        
+        <TextView 
+            android:id="@+id/tv_deliveryer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:text="@string/monthoverview"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:baselineAligned="false">
+        
+        <RelativeLayout 
+            android:id="@+id/rl_ordercnt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/backwhitegreen"
+            android:onClick="true"
+            android:padding="10dp">
+            
+            <TextView 
+                android:id="@+id/tv_ordercntitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"
+                android:text="@string/ordercntitle"/>
+            
+            <TextView 
+                android:id="@+id/tv_ordercnt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="@color/black"
+                android:layout_centerInParent="true"/>
+            
+        </RelativeLayout>
+        
+        <View 
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/backdefault"/>
+        
+        <RelativeLayout 
+            android:id="@+id/rl_payment"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp">
+            
+            <TextView 
+                android:id="@+id/tv_paymentitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"
+                android:text="@string/paymentitle"/>
+            
+            <TextView 
+                android:id="@+id/tv_payment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="@color/black"
+                android:layout_centerInParent="true"/>
+            
+        </RelativeLayout>
+        
+    </LinearLayout>
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/backdefault"/>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:baselineAligned="false">
+        
+        <RelativeLayout 
+            android:id="@+id/rl_costtime"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp">
+            
+            <TextView 
+                android:id="@+id/tv_costtimetitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"
+                android:text="@string/costtimetitle"/>
+            
+            <TextView 
+                android:id="@+id/tv_costtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="@color/black"
+                android:layout_centerInParent="true"/>
+            
+        </RelativeLayout>
+        
+        <View 
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/backdefault"/>
+        
+        <RelativeLayout 
+            android:id="@+id/rl_grade"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp">
+            
+            <TextView 
+                android:id="@+id/tv_gradetitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"
+                android:text="@string/gradetitle"/>
+            
+            <TextView 
+                android:id="@+id/tv_grade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="@color/black"
+                android:layout_centerInParent="true"/>
+            
+        </RelativeLayout>
+        
+    </LinearLayout>
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/backdefault"/>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:baselineAligned="false">
+        
+        <RelativeLayout 
+            android:id="@+id/rl_normalorder"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp">
+            
+            <TextView 
+                android:id="@+id/tv_normalordertitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"
+                android:text="@string/normalordertitle"/>
+            
+            <TextView 
+                android:id="@+id/tv_normalorder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="@color/black"
+                android:layout_centerInParent="true"/>
+            
+        </RelativeLayout>
+        
+        <View 
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/backdefault"/>
+        
+        <RelativeLayout 
+            android:id="@+id/rl_greatersixty"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp">
+            
+            <TextView 
+                android:id="@+id/tv_greatersixtytitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"
+                android:text="@string/greatersixtytitle"/>
+            
+            <TextView 
+                android:id="@+id/tv_greatersixty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="@color/black"
+                android:layout_centerInParent="true"/>
+            
+        </RelativeLayout>
+        
+    </LinearLayout>
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/backdefault"/>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:baselineAligned="false">
+        
+        <RelativeLayout 
+            android:id="@+id/rl_appointmentorder"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp">
+            
+            <TextView 
+                android:id="@+id/tv_appointmentordertitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"
+                android:text="@string/appointmentordertitle"/>
+            
+            <TextView 
+                android:id="@+id/tv_appointmentorder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="@color/black"
+                android:layout_centerInParent="true"/>
+            
+        </RelativeLayout>
+        
+        <View 
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/backdefault"/>
+        
+        <RelativeLayout 
+            android:id="@+id/rl_greaterten"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp">
+            
+            <TextView 
+                android:id="@+id/tv_greatertentitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"
+                android:text="@string/greatertentitle"/>
+            
+            <TextView 
+                android:id="@+id/tv_greaterten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textColor="@color/black"
+                android:layout_centerInParent="true"/>
+            
+        </RelativeLayout>
+        
+    </LinearLayout>
+    
+</LinearLayout>

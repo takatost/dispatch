@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#231f20</color>
+    <color name="white">#ffffff</color>
+    <color name="lightblue">#25bf75</color>
+    <color name="backdefault">#eeeeee</color>
+    <color name="lightyellow">#ffd040</color>
+    <color name="lightlinear">#999999</color>
+    <color name="brown">#453325</color>
+    <color name="transparent">#50000000</color>
+    <color name="halftransport">#40000000</color>
+    
+</resources>

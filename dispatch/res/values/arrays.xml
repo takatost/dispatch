@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="overview" translatable="false">
+        <item >今日订单</item>
+        <item >订单统计</item>
+    </string-array>
+</resources>

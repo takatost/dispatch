@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backdefault">
+    
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@color/lightblue">
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:text="@string/todayorder"/>
+        
+    </LinearLayout>
+    
+     <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+        
+         <Button 
+             android:id="@+id/new_order"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:textColor="@color/brown"
+             android:textSize="18sp"
+             android:background="@drawable/backwhite"
+             android:text="@string/neworder"/>
+         
+         <Button 
+             android:id="@+id/dealed_order"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:textColor="@color/white"
+             android:textSize="18sp"
+             android:background="@drawable/backbrown"
+             android:text="@string/dealedorder"/>
+         
+     </LinearLayout>
+
+     <android.support.v4.view.ViewPager  
+        android:id="@+id/id_page_vp"  
+        android:layout_width="match_parent"  
+        android:layout_height="0dp"  
+        android:layout_weight="1" >  
+    </android.support.v4.view.ViewPager>
+     
+</LinearLayout>
